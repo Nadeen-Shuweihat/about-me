@@ -10,8 +10,18 @@ And yes, without a css for now because we all should enjoy the simple things in 
 
 
 ##### Paring lab:
+
+- In this like [about-me](https://github.com/Nadeen-Shuweihat/about-me/pull/1) 
 The navigator : **Nadeen**
 
 The driver: **Anas**
+
+
+
+- In this like [about-me](https://github.com/AnasAlRamahi/About-us/pull/1) 
+The navigator : **Anas**
+
+The driver: **Nadeen**
+
 
 *We worked together on adding functions to the code block (questions)*
