@@ -7,3 +7,9 @@ i buit a simple website about me. it will tell you some basic information about 
 And yes, without a css for now because we all should enjoy the simple things in life hahahah
 
 #### Author : Nadeen Shuweihat
+
+
+##### Paring lab:
+The navigator : **Nadeen**
+The driver: **Anas**
+*We worked together on adding functions to the code block (questions)*
