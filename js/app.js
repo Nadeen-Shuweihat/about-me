@@ -55,39 +55,43 @@ questionTwo();
 
 
 function questoinThree(){
-let userQues2 = prompt('Am i older than 25?');
-//console.log(userQues2)
-switch(userQues2.toLowerCase()){
-case 'y':
-case 'yes':
-  alert('no younger');
-  break;
-case 'n':
-case 'no':
-  alert('you are right');
-  score++;
-  break;
-default:
-  alert('i was born in 1998,calculate it');
-}
+  let userQues2 = prompt('Am i older than 25?');
+  //console.log(userQues2)
+  switch(userQues2.toLowerCase()){
+  case 'y':
+  case 'yes':
+    alert('no younger');
+    break;
+  case 'n':
+  case 'no':
+    alert('you are right');
+    score++;
+    break;
+  default:
+    alert('i was born in 1998,calculate it');
+  }
 }
 questoinThree();
 
-let userQues3 = prompt('Can i make myself disappear?');
-//console.log(userQues3)
-switch(userQues3.toLowerCase()){
-case 'y':
-case 'yes':
-  alert('i wish i can but no');
-  break;
-case 'n':
-case 'no':
-  alert('you are right');
-  score++;
-  break;
-default:
-  alert('i know it is a silly');
+
+function questionFour(){
+  let userQues3 = prompt('Can i make myself disappear?');
+  //console.log(userQues3)
+  switch(userQues3.toLowerCase()){
+  case 'y':
+  case 'yes':
+    alert('i wish i can but no');
+    break;
+  case 'n':
+  case 'no':
+    alert('you are right');
+    score++;
+    break;
+  default:
+    alert('i know it is a silly');
+  }
 }
+questionFour();
 
 
 let userQues4 = prompt('Do i believe in Santa Claus?');
