@@ -33,6 +33,7 @@ questionOne();
 
 alert(userName +', i will ask you now 6 random yes or no question and i will give you a score to each correct answer. Be preapared');
 
+
 function questionTwo(){
   let userQues1 = prompt('Do i believe in ghosts?');
   // console.log(userQues1)
@@ -52,6 +53,8 @@ function questionTwo(){
 }
 questionTwo();
 
+
+function questoinThree(){
 let userQues2 = prompt('Am i older than 25?');
 //console.log(userQues2)
 switch(userQues2.toLowerCase()){
@@ -67,7 +70,8 @@ case 'no':
 default:
   alert('i was born in 1998,calculate it');
 }
-
+}
+questoinThree();
 
 let userQues3 = prompt('Can i make myself disappear?');
 //console.log(userQues3)
