@@ -33,21 +33,24 @@ questionOne();
 
 alert(userName +', i will ask you now 6 random yes or no question and i will give you a score to each correct answer. Be preapared');
 
-let userQues1 = prompt('Do i believe in ghosts?');
-// console.log(userQues1)
-switch(userQues1.toLowerCase()){
-case 'y':
-case 'yes':
-  alert('I think i do');
-  score++;
-  break;
-case 'n':
-case 'no':
-  alert('actually i do');
-  break;
-default:
-  alert('i know it is a silly to ask an adult about this');
+function questionTwo(){
+  let userQues1 = prompt('Do i believe in ghosts?');
+  // console.log(userQues1)
+  switch(userQues1.toLowerCase()){
+  case 'y':
+  case 'yes':
+    alert('I think i do');
+    score++;
+    break;
+  case 'n':
+  case 'no':
+    alert('actually i do');
+    break;
+  default:
+    alert('i know it is a silly to ask an adult about this');
+  }
 }
+questionTwo();
 
 let userQues2 = prompt('Am i older than 25?');
 //console.log(userQues2)
