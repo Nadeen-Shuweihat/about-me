@@ -133,17 +133,18 @@ function questionSix(){
 questionSix();
 
 
-let myFav = ['sabrina','you will never get rich','roman holiday','bewitched'];
-for(let i=0; i<6; i++){
-  let favMovie = prompt('can you guess my favorite movies?').toLocaleLowerCase();
-  if (favMovie===myFav[0] || favMovie===myFav[1] || favMovie===myFav[2] || favMovie===myFav[3]){
-    alert('corret ,i see you are a fan to oldies like me ');
-    score++;
-    break;
-  }else ('nope, try getting back in time with the guessing');
-}
+function questionSeven(){
+  let myFav = ['sabrina','you will never get rich','roman holiday','bewitched'];
+  for(let i=0; i<6; i++){
+    let favMovie = prompt('can you guess my favorite movies?').toLocaleLowerCase();
+    if (favMovie===myFav[0] || favMovie===myFav[1] || favMovie===myFav[2] || favMovie===myFav[3]){
+      alert('corret ,i see you are a fan to oldies like me ');
+      score++;
+      break;
+    }else ('nope, try getting back in time with the guessing');
+  }
 
-/*for(let n=0; n<6 ; n++){
+  /*for(let n=0; n<6 ; n++){
      let guess = prompt('can you guess my favorite movies?').toLocaleLowerCase();
      for(let j=0; j<myFav.length;j++){
          if(myFav.includes(guess)){
@@ -157,10 +158,12 @@ for(let i=0; i<6; i++){
      }
  }*/ // i like it more than the first way
 
-alert('My favorite movies are sabrina 1954, you will never get rich 1941, roman holiday 1953,bewitched 1964');
+  alert('My favorite movies are sabrina 1954, you will never get rich 1941, roman holiday 1953,bewitched 1964');
 
 //if((parseInt(userQues5)=== 154)){alert('you are corresct');}
 // else if (for()) - was trying to solve it by nesting the for in the if
+}
+questionSeven();
 
 
 alert ('your scores is ' +score);
