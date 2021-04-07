@@ -94,21 +94,25 @@ function questionFour(){
 questionFour();
 
 
-let userQues4 = prompt('Do i believe in Santa Claus?');
-//console.log(userQues4)
-switch(userQues4.toLowerCase()){
-case 'y':
-case 'yes':
-  alert('childesh i know');
-  score++;
-  break;
-case 'n':
-case 'no':
-  alert('i do actually');
-  break;
-default:
-  alert('i know it is silly ');
+function questionFive(){
+  let userQues4 = prompt('Do i believe in Santa Claus?');
+  //console.log(userQues4)
+  switch(userQues4.toLowerCase()){
+  case 'y':
+  case 'yes':
+    alert('childesh i know');
+    score++;
+    break;
+  case 'n':
+  case 'no':
+    alert('i do actually');
+    break;
+  default:
+    alert('i know it is silly ');
+  }
 }
+questionFive();
+
 
 let userQues5 = parseInt(prompt('what is my hight'));
 for(let i =1; i<4;i++){
