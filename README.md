@@ -11,5 +11,7 @@ And yes, without a css for now because we all should enjoy the simple things in 
 
 ##### Paring lab:
 The navigator : **Nadeen**
+
 The driver: **Anas**
+
 *We worked together on adding functions to the code block (questions)*
