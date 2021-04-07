@@ -114,25 +114,26 @@ function questionFive(){
 questionFive();
 
 
-let userQues5 = parseInt(prompt('what is my hight'));
-for(let i =1; i<4;i++){
-  if(userQues5 === 154){
-    alert('right');
-    score++;
-    break;
-  }else if(userQues5 > 154){
-    console.log(userQues5);
-    userQues5=parseInt(prompt('your guess is too high try again'));
-  }else if(userQues5 < 154){
-    userQues5=parseInt(prompt('your guess is too low try again'));
+function questionSix(){
+  let userQues5 = parseInt(prompt('what is my hight'));
+  for(let i =1; i<4;i++){
+    if(userQues5 === 154){
+      alert('right');
+      score++;
+      break;
+    }else if(userQues5 > 154){
+      console.log(userQues5);
+      userQues5=parseInt(prompt('your guess is too high try again'));
+    }else if(userQues5 < 154){
+      userQues5=parseInt(prompt('your guess is too low try again'));
+    }
   }
+  alert('the right answer is 154');
 }
-alert('the right answer is 154');
+questionSix();
+
 
 let myFav = ['sabrina','you will never get rich','roman holiday','bewitched'];
-
-
-
 for(let i=0; i<6; i++){
   let favMovie = prompt('can you guess my favorite movies?').toLocaleLowerCase();
   if (favMovie===myFav[0] || favMovie===myFav[1] || favMovie===myFav[2] || favMovie===myFav[3]){
